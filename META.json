@@ -1,0 +1,42 @@
+{
+   "abstract" : "Bootstrap CPANPLUS with cpanm like BINGOS does",
+   "author" : [
+      "Chris Williams <chris@bingosnet.co.uk>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.200006, CPAN::Meta::Converter version 2.110930",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Task-BINGOS-Bootstrap",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.30"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "CPANPLUS" : "0.9105",
+            "CPANPLUS::Internals::Source::CPANIDX" : "0.04",
+            "CPANPLUS::YACSmoke" : "0.62",
+            "Test::Reporter::Transport::Socket" : "0.16"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "homepage" : "http://github.com/bingos/perl-task-modules",
+      "repository" : {
+         "type" : "git",
+         "url" : "http://github.com/bingos/perl-task-modules",
+         "web" : "http://github.com/bingos/perl-task-modules"
+      }
+   },
+   "version" : "0.02"
+}
+
